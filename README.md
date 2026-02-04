@@ -45,7 +45,7 @@ Thank you for your support! 🙏
 This is a **Lua auto recoil control script example** for **Logitech G Hub**.  
 It simulates vertical mouse movement to help **stabilize continuous firing**.  
 
-This repository serves as a **Chinese-language guide**, helping users understand the script’s **purpose, configuration, and basic principles**.
+This repository serves as a **English-language guide**, helping users understand the script’s **purpose, configuration, and basic principles**.
 
 ---
 
