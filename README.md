@@ -14,7 +14,7 @@
 
 | Repository | Content |
 |-----------|---------|
-| This repository | Chinese guide and usage instructions |
+| This repository | English guide and usage instructions |
 | Main repository | Lua source code and official updates |
 
 👉 Always refer to the **main repository** for the latest code.
