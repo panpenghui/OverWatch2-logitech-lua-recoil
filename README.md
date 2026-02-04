@@ -67,17 +67,6 @@ This repository serves as a **Chinese-language guide**, helping users understand
 
 ---
 
-## ⚙️ Adjustable Parameters
-
-Core parameters in the script:
-
-```lua
-shotInterval = 9      -- Shooting interval (ms)
-verticalPull = 4      -- Recoil strength (higher = stronger)
-initialShots = 13     -- Number of initial shots without recoil
-
----
-
 💡 Common Adjustment Tips
 
 Recoil too weak → Increase verticalPull
@@ -87,7 +76,14 @@ Recoil too strong → Decrease verticalPull
 Shooting rhythm unstable → Fine-tune shotInterval
 
 📝 Notes
-
-This repository is for Chinese-speaking users to better understand the script.
-
 Always prioritize the main repository code for updates and bug fixes.
+
+## ⚙️ Adjustable Parameters
+
+Core parameters in the script:
+
+```lua
+shotInterval = 9      -- Shooting interval (ms)
+verticalPull = 4      -- Recoil strength (higher = stronger)
+initialShots = 13     -- Number of initial shots without recoil
+
