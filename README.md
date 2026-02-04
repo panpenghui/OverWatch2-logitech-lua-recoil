@@ -1,9 +1,9 @@
 <!-- badges: start -->
 
-[![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO_NAME?style=social)](https://github.com/USERNAME/REPO_NAME/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPO_NAME?style=social)](https://github.com/USERNAME/REPO_NAME/network/members)
-[![License](https://img.shields.io/github/license/USERNAME/REPO_NAME)](https://github.com/USERNAME/REPO_NAME/blob/main/LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/USERNAME/REPO_NAME)](https://github.com/USERNAME/REPO_NAME/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO_NAME?style=social)](https://github.com/panpenghui/OverWatch2-logitech-lua-recoil/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPO_NAME?style=social)](https://github.com/panpenghui/OverWatch2-logitech-lua-recoil/network/members)
+[![License](https://img.shields.io/github/license/USERNAME/REPO_NAME)](https://github.com/panpenghui/OverWatch2-logitech-lua-recoil/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/USERNAME/REPO_NAME)](https://github.com/panpenghui/OverWatch2-logitech-lua-recoil/commits/main)
 
 <!-- badges: end -->
 
