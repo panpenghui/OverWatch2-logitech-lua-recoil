@@ -1,70 +1,83 @@
-Overwatch 2 Soldier:76 Auto Recoil Script – Logitech Version
+<!-- badges: start -->
 
-⚠️ Note: This repository only provides Chinese instructions and usage guidance, it does not include the source code.
-📦 To access the source code, please visit the main repository.
+[![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO_NAME?style=social)](https://github.com/USERNAME/REPO_NAME/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPO_NAME?style=social)](https://github.com/USERNAME/REPO_NAME/network/members)
+[![License](https://img.shields.io/github/license/USERNAME/REPO_NAME)](https://github.com/USERNAME/REPO_NAME/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/USERNAME/REPO_NAME)](https://github.com/USERNAME/REPO_NAME/commits/main)
 
-📂 Repository Structure
+<!-- badges: end -->
 
-This Repository: Chinese instructions and usage guide
+# Overwatch 2 – Soldier: 76 Auto Recoil Script (Logitech Version)  
+**Chinese Guide Repository Only**
 
-Main Repository: Lua source code and updates
+⚠️ **Note:** This repository provides **Chinese instructions and usage guidance only**.  
+It **does not include source code**.  
+📦 To access the Lua source code, please visit the **main repository**.
 
-👉 Always refer to the main repository for the latest code.
+---
 
-📜 Disclaimer
+## 📂 Repository Structure
 
-This project is intended for learning purposes only, including Lua scripting and Logitech G Hub automation features.
-Please follow the rules of the games and platforms you use, and use it at your own risk.
+| Repository | Content |
+|-----------|---------|
+| This repository | Chinese guide and usage instructions |
+| Main repository | Lua source code and official updates |
 
-⭐ Support the Project
+👉 Always refer to the **main repository** for the latest code.
 
-If you find this project helpful:
+---
 
-Give a ⭐ to the main repository
+## 📜 Disclaimer
 
-Or share it with friends who might need it
+This project is for **educational purposes only**, including learning **Lua scripting** and **Logitech G Hub automation features**.  
+Please **follow the rules** of the games and platforms you use.  
+**Use this project at your own risk.**
+
+---
+
+## ⭐ Support the Project
+
+If this project is helpful:  
+
+- Give a ⭐ to the **main repository**  
+- Share it with friends who might benefit  
 
 Thank you for your support! 🙏
 
-📌 Project Overview
+---
 
-This is a Lua recoil control script example for Logitech G Hub.
-It simulates vertical mouse movement to help stabilize continuous fire.
+## 📌 Project Overview
 
-This repository serves as a Chinese-language guide, helping users understand the script's purpose, configuration, and basic principles.
+This is a **Lua auto recoil control script example** for **Logitech G Hub**.  
+It simulates vertical mouse movement to help **stabilize continuous firing**.  
 
-🎮 Requirements
+This repository serves as a **Chinese-language guide**, helping users understand the script’s **purpose, configuration, and basic principles**.
 
-Logitech mouse (supports G Hub Lua scripting)
+---
 
-Logitech G Hub installed
+## 🎮 Requirements
 
-Lua script added and enabled in G Hub
+- Logitech mouse (supports Lua scripting in G Hub)  
+- Logitech G Hub installed  
+- Lua script added and enabled in G Hub  
 
-🕹️ Features
+---
 
-🔘 Middle mouse button: Toggle recoil control on/off
+## 🕹️ Features
 
-🖱️ Left mouse button: Auto recoil while shooting
+- 🔘 **Middle Mouse Button:** Toggle recoil control on/off  
+- 🖱️ **Left Mouse Button:** Automatically applies recoil while shooting  
+- 📉 Vertical recoil control only; does **not affect horizontal movement**  
+- 🎯 Skip recoil for initial shots to maintain a **natural shooting feel**  
+- 🎲 Slight random offset to reduce mechanical or robotic feel  
 
-📉 Vertical control only, does not affect horizontal movement
+---
 
-🎯 Initial shots can be skipped for a more natural feel
-
-🎲 Slight random offsets to reduce mechanical feel
-
-⚙️ Adjustable Parameters
+## ⚙️ Adjustable Parameters
 
 Core parameters in the script:
 
+```lua
 shotInterval = 9      -- Shooting interval (ms)
 verticalPull = 4      -- Recoil strength (higher = stronger)
 initialShots = 13     -- Number of initial shots without recoil
-
-Common Tuning Tips
-
-Recoil not strong enough → Increase verticalPull
-
-Recoil too strong → Decrease verticalPull
-
-Rhythm unstable → Fine-tune shotInterval
