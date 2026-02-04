@@ -10,7 +10,7 @@
 # Overwatch 2 – Soldier: 76 Auto Recoil Script (Logitech Version)  
 **Chinese Guide Repository Only**
 
-⚠️ **Note:** This repository provides **Chinese instructions and usage guidance only**.  
+⚠️ **Note:** This repository provides **English instructions and usage guidance only**.  
 It **does not include source code**.  
 📦 To access the Lua source code, please visit the **main repository**.
 
